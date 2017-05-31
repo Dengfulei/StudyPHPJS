@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+	*{margin: 0px;padding: 0px;}
+	/*relative相对位置，指的是自己相对自己的正常位置*/
+		/*.test1 {
+		
+  			background-color: yellow;
+		}
+		.test2  {
+			background-color: red;
+		
+
+		}*/
+		.test_abs {
+			margin: 10px;
+			background-color: gray;
+			/*position: relative;*/
+
+			width: 1200px;
+			height: 100px;
+			margin: auto;
+			z-index: 1;
+		
+		}
+		.one {
+			width: 100px;
+			background-color: orange;
+
+
+
+		}
+		.two{
+			position: absolute;
+  			right: 20px;
+  			top: 20px;
+  			background-color: blue;
+
+		}
+		.fix1 {
+			position: fixed;
+			top: 0px;
+			background-color: red;
+		}
+
+		.fix2 {
+			position: fixed;
+		}
+	</style>
+</head>
+<body>
+  <!-- <div class="test">
+  	<div class="test1">
+  		<p>hello1</p>
+  	</div>
+  </div> 
+  <div class="test2">
+  		<p>hello2</p>
+  </div> -->
+
+  <div class="test_abs">
+  	<div class="one">
+  		<h1>1111</h1>
+  		<div class="two">
+  		<h1>22222</h1>
+  		</div>
+  	</div>
+
+  </div>
+
+
+  	<div class="fix1">6666666</div>
+  	<div class="fix2">77777777</div>
+</body>
+</html>
